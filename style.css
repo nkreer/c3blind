@@ -1,5 +1,22 @@
 body {
 	font-family: sans-serif;
 	font-size: 18pt;
-	line-height: 2em;
+	line-height: 1.7em;
+	padding: 8%;
+	margin: 0;
+}
+
+:root {
+	color-scheme: light dark;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	a {
+		text-decoration: underline;
+		color: #fff;
+	}
 }
