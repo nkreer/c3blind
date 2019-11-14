@@ -15,6 +15,10 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+	html {
+		background-color: #000;
+		color: #fff;
+	}
 	a {
 		text-decoration: underline;
 		color: #fff;
